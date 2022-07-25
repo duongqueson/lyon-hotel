@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyon</title>
+    <link sizes="16x16" href="./assets/image/favicon.png" rel="icon" />
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/themify-icons/themify-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/list-blog.css" />
+    <link rel="stylesheet" href="./assets/css/detail-blog.css" />
+    <link rel="stylesheet" href="./assets/css/responsive/detail-blog_res.css">
+  </head>
+
+  <body class="preload">
+    <div id="main">
+      <div class="container-fluid o-hidden px-0">
+        <a href="#" class="back-to-top"></a>
+        <!-- header -->
+        <header class="header">
+          <!-- header nav left -->
+          <div class="col-lg-2 header__left">
+            <div class="header-select header__select-hotel">
+              <a class="find-a-hotel" href="#/">FIND A HOTEL</a>
+              <ul class="header__select-list">
+                <li class="header__select-item"><a href="#/">Paris</a></li>
+                <li class="header__select-item"><a href="#/">London</a></li>
+                <li class="header__select-item"><a href="#/">Monaco</a></li>
+                <li class="header__select-item"><a href="#/">Ibiza</a></li>
+                <li class="header__select-item">
+                  <a href="#/">Beverly Hills</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- header center with nav -->
+          <div class="col-lg-8 px-0 header__center">
+            <div class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="./index.html">Home</a>
+                  <!-- <ul class="sub-nav-list">
+                    <li class="sub-nav-item active">
+                      <a href="#/">Homepage 1</a>
+                    </li>
+                    <li class="sub-nav-item">
+                      <a href="#/">Homepage 2</a>
+                    </li>
+                    <li class="sub-nav-item">
+                      <a href="#/">Homepage 3</a>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="header__nav-item has-children">
+                  <a href="#/">Rooms</a>
+                  <ul class="sub-nav-list">
+                    <li class="sub-nav-item">
+                      <a href="./list-room.html">Rooms listing 2 columns</a>
+                    </li>
+                    <!-- <li class="sub-nav-item">
+                      <a href="#/">Rooms listing 3 columns</a>
+                    </li>
+                    <li class="sub-nav-item">
+                      <a href="#/">Rooms listing grid 3 columns</a>
+                    </li>
+                    <li class="sub-nav-item">
+                      <a href="#/">Single Room</a>
+                    </li> -->
+                    <li class="sub-nav-item">
+                      <a href="./detail-room.html">Single Room Gallery</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#/">Booking</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__logo">
+              <a class="header__logo-link" href="./index.html">
+                <img src="./assets/image/logo.png" alt="Lyon logo" /></a>
+            </div>
+
+            <div class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="./list-blog.html">Blog</a>
+                  <!-- <ul class="sub-nav-list">
+                    <li class="sub-nav-item has-children">
+                      <a href="#/">Medium thumbnail</a>
+                      <ul class="sub-nav-list">
+                        <li class="sub-nav-item">
+                          <a href="#/">Medium left sidebar</a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#/">Medium right sidebar</a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#/">Medium full width</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-nav-item has-children">
+                      <a href="#/">Single post</a>
+                      <ul class="sub-nav-list">
+                        <li class="sub-nav-item">
+                          <a href="#/">Post format: Video</a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#/">Post format: Gallery</a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#/">Post format: Soundcloud</a>
+                        </li>
+                        <li class="sub-nav-item">
+                          <a href="#/">Post format: Audio</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="header__nav-item">
+                  <a href="./contact.html">Contact</a>
+                </li>
+                <li class="header__nav-item has-children">
+                  <a href="#/">Pages</a>
+                  <ul class="sub-nav-list">
+                    <li class="sub-nav-item">
+                      <a href="./about-us.html">About</a>
+                    </li>
+                    <!-- <li class="sub-nav-item">
+                      <a href="#/">Gallery</a>
+                    </li> -->
+                    <li class="sub-nav-item">
+                      <a href="./gallery.html">Gallery 2 columns</a>
+                    </li>
+                    <!-- <li class="sub-nav-item">
+                      <a href="#/">404</a>
+                    </li> -->
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- header right -->
+          <div class="col-lg-2 header__right">
+            <div class="header-select header__select-language">
+              <a class="current-language" href="#/">ENGLISH</a>
+              <ul class="header__select-list">
+                <li class="header__select-item"><a href="#/">Spainese</a></li>
+                <li class="header__select-item"><a href="#/">English</a></li>
+                <li class="header__select-item"><a href="#/">Germanese</a></li>
+                <li class="header__select-item"><a href="#/">French</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="header-sidebar-nav">
+            <i class="fas fa-bars"></i>
+          </div>
+        </header>
+
+        <!-- body -->
+        <div class="body">
+          <!--body list blog  -->
+          <div class="container-fluid body__detail-blog">
+            <div class="row detail-blog__title-bar title-bar">
+              <h1 class="detail-blog__main-title main-title">
+                Medium Right Sidebar
+              </h1>
+              <div class="detail-blog__main-excerpt main-excerpt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore
+              </div>
+            </div>
+
+            <div class="row detail-blog">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-9 detail-blog__wrap">
+                    <!-- blog post -->
+                    <div class="detail-blog__widget">
+                      <div class="detail-blog__post">
+                        <div class="detail-blog__post-thumb">
+                          <img src="./assets/image/child.jpg" alt="Child" />
+                        </div>
+                        <div class="detail-blog__post-content">
+                          <h2 class="detail-blog__post-title">
+                            <a href="#/"
+                              >The Opulence of Versailles:
+                              <span>A Palace Like No Other</span></a
+                            >
+                          </h2>
+                          <span class="detail-blog__post-date">
+                            <i class="far fa-clock"></i>
+                            October 6, 2015
+                          </span>
+                          <span class="detail-blog__post-author">
+                            <i class="far fa-user"></i>
+                            Author
+                          </span>
+                          <span class="detail-blog__post-categories">
+                            <i class="fas fa-layer-group"></i>
+                            <a href="#/">Service,</a>
+                            <a href="#/">Hotel,</a>
+                            <a href="#/">Rooms,</a>
+                            <a href="#/">Event</a>
+                          </span>
+                          <p class="detail-blog__post-contents">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.<br />
+                            <br />
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore
+                            veritatis et quasi architecto beatae vitae dicta
+                            sunt explicabo. <br />
+                            <br />
+                            Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur aut odit aut fugit, sed quia consequuntur
+                            magni dolores eos qui ratione voluptatem sequi
+                            nesciunt. Neque porro quisquam est, qui dolorem
+                            ipsum quia dolor sit amet, consectetur, adipisci
+                            velit, sed quia non numquam eius modi tempora
+                            incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem.<br />
+                            <br />
+                            Ut enim ad minima veniam, quis nostrum
+                            exercitationem ullam corporis suscipit laboriosam,
+                            nisi ut aliquid ex ea commodi consequatur.<br />
+                            <br />
+                            Quis autem vel eum iure reprehenderit qui in ea
+                            voluptate velit esse quam nihil molestiae
+                            consequatur, vel illum qui dolorem eum fugiat quo
+                            voluptas nulla pariatur?<br /><br />
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="detail-blog__post-bottom">
+                        <div class="detail-blog__post-tags">
+                          <span>TAGS: </span>
+                          <a href="#/" title="Holiday">Holiday</a>,
+                          <a href="#/" title="Hotel Room"> Hotel Room</a>,
+                          <a href="#/" title="Luxury"> Luxury</a>
+                        </div>
+                        <div class="detail-blog__post-social body-social">
+                          <ul class="post-social__list body-social-list">
+                            <li class="post-social__item body-social-item">
+                              Share:
+                            </li>
+                            <li class="post-social__item body-social-item">
+                              <a
+                                class="post-social__item-facebook"
+                                href="#/"
+                                onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
+                              >
+                                <i class="ti-facebook"></i>
+                                <span>Facebook</span>
+                              </a>
+                            </li>
+                            <li class="post-social__item body-social-item">
+                              <a
+                                class="post-social__item-twitter"
+                                href="#/"
+                                onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
+                              >
+                                <i class="ti-twitter-alt"></i>
+                                <span>Twitter</span>
+                              </a>
+                            </li>
+                            <li class="post-social__item body-social-item">
+                              <a class="post-social__item-google" href="#/">
+                                <i class="ti-google"></i>
+                                <span>Google</span>
+                              </a>
+                            </li>
+                            <li class="post-social__item body-social-item">
+                              <a class="post-social__item-tumblr" href="#/">
+                                <i class="ti-tumblr-alt"></i>
+                                <span>Tumblr</span>
+                              </a>
+                            </li>
+                            <li class="post-social__item body-social-item">
+                              <a class="post-social__item-pinterest" href="#/">
+                                <i class="ti-pinterest"></i>
+                                <span>Pinterest</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- comments -->
+                    <div class="detail-blog__comments">
+                      <h3 class="comments-title">3 comments</h3>
+                      <ul class="comment-list">
+                        <li class="commnet-item">
+                          <div class="comment-body">
+                            <img
+                              src="./assets/image/view00.jpg"
+                              alt="avt00"
+                              width="100"
+                              height="100"
+                            />
+                            <div class="comment-content">
+                              <div class="comment-author">Elizabeth Rose</div>
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo.
+                              </p>
+                              <div class="comment-action">
+                                <a class="comment-reply" href="">
+                                  <i class="fas fa-reply"></i>
+                                  Reply
+                                </a>
+                                <div class="comment-favorite">
+                                  <i class="far fa-heart"></i>
+                                  32
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <ul class="comment-item-children">
+                            <li class="commnet-item">
+                              <div class="comment-body">
+                                <img
+                                  src="./assets/image/view01.png"
+                                  alt="avt00"
+                                  width="100"
+                                  height="100"
+                                />
+                                <div class="comment-content">
+                                  <div class="comment-author">
+                                    Elizabeth Rose
+                                  </div>
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo.
+                                  </p>
+                                  <div class="comment-action">
+                                    <a class="comment-reply" href="">
+                                      <i class="fas fa-reply"></i>
+                                      Reply
+                                    </a>
+                                    <div class="comment-favorite">
+                                      <i class="far fa-heart"></i>
+                                      8
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="commnet-item">
+                          <div class="comment-body">
+                            <img
+                              src="./assets/image/view02.jpg"
+                              alt="avt00"
+                              width="100"
+                              height="100"
+                            />
+                            <div class="comment-content">
+                              <div class="comment-author">Elizabeth Rose</div>
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo.
+                              </p>
+                              <div class="comment-action">
+                                <a class="comment-reply" href="">
+                                  <i class="fas fa-reply"></i>
+                                  Reply
+                                </a>
+                                <div class="comment-favorite">
+                                  <i class="far fa-heart"></i>
+                                  32
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="comment-respond">
+                        <h2 class="comment-title">
+                          Leave a Comment
+                        </h2>
+                        <form action="./" id="form-comment" method="POST">
+                          <div class="form-group author-group">
+                            <input id="author" type="text" placeholder="Name" required>
+                          </div>
+                          <div class="form-group email-group">
+                            <input id="email" type="email" placeholder="Email">
+                          </div>
+                          <div class="form-group comment-group">
+                            <Textarea id="comment" rows="5" placeholder="Comment"></Textarea>
+                          </div>
+                          <input id="btn-comment" type="submit" value="Comment"./>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- sidebar -->
+                  <div class="col-lg-3 detail-blog__sidebar">
+                    <div class="sidebar__search">
+                      <form
+                        action="#"
+                        id="search-form"
+                        class="search-form"
+                        method="GET"
+                      >
+                        <div class="form-group">
+                          <input
+                            id="search"
+                            name="search"
+                            type="text"
+                            placeholder="Type to search..."
+                          />
+                          <button id="search-submit" type="submit">
+                            <i class="ti-search"></i>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <!-- sidebar popular posts -->
+                    <div class="sidebar__popular-post">
+                      <h4 class="popular-post__title sidebar-title">
+                        Popular posts
+                      </h4>
+                      <div class="popular-post__list">
+                        <div class="popular-post__item">
+                          <a href="#/" class="popular-post__item-title"
+                            >The Opulence of Versailles:
+                            <span>A Palace Like No Other</span></a
+                          >
+                          <div class="popular-post__item-read-more">
+                            <a href="#/">Read more</a>
+                            <i class="ti-angle-right"></i>
+                          </div>
+                        </div>
+                        <div class="popular-post__item">
+                          <a href="#/" class="popular-post__item-title"
+                            >The Opulence of Versailles:
+                            <span>A Palace Like No Other</span></a
+                          >
+                          <div class="popular-post__item-read-more">
+                            <a href="#/">Read more</a>
+                            <i class="ti-angle-right"></i>
+                          </div>
+                        </div>
+                        <div class="popular-post__item">
+                          <a href="#/" class="popular-post__item-title"
+                            >The Opulence of Versailles:
+                            <span>A Palace Like No Other</span></a
+                          >
+                          <div class="popular-post__item-read-more">
+                            <a href="#/">Read more</a>
+                            <i class="ti-angle-right"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- sidebar instagram -->
+                    <div class="sidebar__instagram">
+                      <h4 class="instagram__title sidebar-title">Instagram</h4>
+                      <div class="instagram-wrap">
+                        <div class="instagram__images">
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/crown-759297_1280.jpg"
+                                alt="crown"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/iStock_000037262774_Full.jpg"
+                                alt="iStock-full"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img src="./assets/image/istock.jpg" alt="istock"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/iStock_000039087988_Large.jpg"
+                                alt="iStock-Large"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/istock2.jpg"
+                                alt="istock2"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/caesars-palace-585098_1280.jpg"
+                                alt="caesars-palace"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/hotel-815007_1280.jpg"
+                                alt="hotel"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/istock4.jpg"
+                                alt="istock4"
+                            /></a>
+                          </div>
+                          <div class="instagram__images-item">
+                            <a href="#/"
+                              ><img
+                                src="./assets/image/istock3.jpg"
+                                alt="istock3"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="instagram__follow">
+                          <a target="_blank" href="#/">@lyonhotel</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- sidebar tags -->
+                    <div class="sidebar__tag">
+                      <h4 class="tag__title sidebar-title">Tags</h4>
+                      <div class="tag-cloud">
+                        <a href="#/">hotel</a><a href="#/">wordpress theme</a
+                        ><a href="#/">luxury room</a><a href="#/">services</a
+                        ><a href="#/">event</a><a href="#/">Branches</a
+                        ><a href="#/">reservation</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="footer__top">
+            <div class="container">
+              <div class="row">
+                <div class="footer__info">
+                  <a href="./index.html" class="footer__logo d-inline-block">
+                    <img src="./assets/image/logo-footer.png" alt="logo" />
+                  </a>
+                  <div class="footer__contact">
+                    <div class="footer__contact-hotline">
+                      <i class="fas fa-phone-alt"></i>
+                      Hotline: 0969 969 969
+                    </div>
+                    <div class="footer__contact-email">
+                      <i class="fas fa-envelope"></i>
+                      Email: abc@xyz.vn
+                    </div>
+                  </div>
+                  <div class="footer__social">
+                    <ul class="footer__social-list">
+                      <li class="footer__social-item">
+                        <a href="#/"><i class="ti-facebook"></i></a>
+                      </li>
+                      <li class="footer__social-item">
+                        <a href="#/"><i class="ti-twitter-alt"></i></a>
+                      </li>
+                      <li class="footer__social-item">
+                        <a href="#/"><i class="ti-google"></i></a>
+                      </li>
+                      <li class="footer__social-item">
+                        <a href="#/"><i class="ti-instagram"></i></a>
+                      </li>
+                      <li class="footer__social-item">
+                        <a href="#/"><i class="ti-linkedin"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="container footer__bottom-wrap">
+              <div class="row footer__bottom-widget">
+                <div class="footer__nav">
+                  <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                      <a href="./about-us.html">About us</a>
+                    </li>
+                    <li class="footer__nav-item"><a href="#/">Gifts</a></li>
+                    <li class="footer__nav-item"><a href="#/">Careers</a></li>
+                    <li class="footer__nav-item">
+                      <a href="./contact.html">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer__copyright">
+                  © Copyright 2015. Powered by WordPress. LYON HOTEL by
+                  SunriseTheme
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- sidebar nav-->
+    <div class="sidebar-nav">
+      <div class="sidebar-close">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <ul class="sidebar-nav-list">
+        <li class="sidebar-nav-item">
+          <a href="./index.html">Home</a>
+          <!-- <ul class="sub-nav-list">
+            <li class="sub-nav-item">
+              <a href="#/">Homepage 1</a>
+            </li>
+            <li class="sub-nav-item">
+              <a href="#/">Homepage 2</a>
+            </li>
+            <li class="sub-nav-item">
+              <a href="#/">Homepage 3</a>
+            </li>
+          </ul> -->
+        </li>
+        <li class="sidebar-nav-item has-children">
+          <a href="#/">Rooms</a>
+          <ul class="sub-nav-list">
+            <li class="sub-nav-item">
+              <a href="./list-room.html">Rooms listing 2 columns</a>
+            </li>
+            <!-- <li class="sub-nav-item">
+              <a href="#/">Rooms listing 3 columns</a>
+            </li>
+            <li class="sub-nav-item">
+              <a href="#/">Rooms listing grid 3 columns</a>
+            </li>
+            <li class="sub-nav-item">
+              <a href="#/">Single Room</a>
+            </li> -->
+            <li class="sub-nav-item">
+              <a href="./detail-room.html">Single Room Gallery</a>
+            </li>
+          </ul>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="#/">Booking</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="./list-blog.html">Blog</a>
+          <!-- <ul class="sub-nav-list">
+            <li class="sub-nav-item has-children">
+              <a href="#/">Medium thumbnail</a>
+              <ul class="sub-nav-list sub-nav-lv2">
+                <li class="sub-nav-item">
+                  <a href="#/">Medium left sidebar</a>
+                </li>
+                <li class="sub-nav-item">
+                  <a href="./list-blog.html">Medium right sidebar</a>
+                </li>
+                <li class="sub-nav-item">
+                  <a href="#/">Medium full width</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sub-nav-item has-children">
+              <a href="#/">Single post</a>
+              <ul class="sub-nav-list sub-nav-lv2">
+                <li class="sub-nav-item">
+                  <a href="#/">Post format: Video</a>
+                </li>
+                <li class="sub-nav-item">
+                  <a href="#/">Post format: Gallery</a>
+                </li>
+                <li class="sub-nav-item">
+                  <a href="#/">Post format: Soundcloud</a>
+                </li>
+                <li class="sub-nav-item">
+                  <a href="#/">Post format: Audio</a>
+                </li>
+              </ul>
+            </li>
+          </ul> -->
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="./contact.html">Contact</a>
+        </li>
+        <li class="sidebar-nav-item has-children">
+          <a href="#/">Pages</a>
+          <ul class="sub-nav-list">
+            <li class="sub-nav-item">
+              <a href="./about-us.html">About</a>
+            </li>
+            <!-- <li class="sub-nav-item">
+              <a href="#/">Gallery</a>
+            </li> -->
+            <li class="sub-nav-item">
+              <a href="./gallery.html">Gallery 2 columns</a>
+            </li>
+            <!-- <li class="sub-nav-item">
+              <a href="#/">404</a>
+            </li> -->
+          </ul>
+        </li>
+      </ul>
+
+      <div class="sidebar-social">
+        <div class="footer__social">
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#/"><i class="ti-facebook"></i></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#/"><i class="ti-twitter-alt"></i></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#/"><i class="ti-google"></i></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#/"><i class="ti-instagram"></i></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#/"><i class="ti-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          video: true,
+          loop: true,
+          autoplay: true,
+          slideTransition: `ease-in-out`,
+          smartSpeed: 1000,
+          autoplayTimeout: 4000,
+          nav: true,
+          navText: [
+            "<i class='ti-angle-left'></i>",
+            "<i class='ti-angle-right'></i>",
+          ],
+          dots: false,
+          items: 1,
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+@media (max-width: 991px) {
+  .body {
+    margin-top: 60px;
+  }
+
+  .detail-blog {
+    padding-bottom: 60px;
+  }
+
+  .detail-blog__comments {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .detail-blog__main-title {
+    padding-top: 0;
+  }
+
+  .detail-blog__post-bottom {
+    flex-direction: column;
+  }
+
+  .body-social-item {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+
+  .comment-body {
+    flex-direction: column;
+  }
+
+  .comment-content {
+    padding-left: 0px;
+  }
+
+  .author-group,
+  .email-group {
+    width: 100%;
+  }
+}

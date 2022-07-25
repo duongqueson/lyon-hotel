@@ -1,0 +1,221 @@
+.body {
+  background: url(../image/bg.jpg) repeat;
+  margin-bottom: 150px;
+}
+
+.detail-room {
+  padding: 30px 30px 60px 30px;
+  background-color: #fff;
+}
+
+.detail-room__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-room__title {
+  font-size: 36px;
+  color: #283c5a;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.detail-room__price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #252525;
+  font-family: "Old Standard TT", serif;
+  margin-bottom: 20px;
+}
+
+.detail-room__thumb-gallery {
+  position: relative;
+}
+
+.detail-room__inavigation {
+  margin-top: 10px;
+}
+
+/* customize carousal */
+.owl-theme .owl-nav {
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  outline: none;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
+}
+
+.owl-dots {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #dacdcb;
+  border-radius: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #fff;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  cursor: pointer;
+}
+
+.owl-carousel.owl-drag .owl-item.center {
+  opacity: 0.4;
+}
+
+.detail-room__inavigation.owl-carousel.owl-drag .owl-item:hover {
+  opacity: 0.4;
+}
+
+/*  */
+.detail-room__services {
+  margin-top: 30px;
+}
+
+.detail-room__desc-title,
+.detail-room__services-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #252525;
+  margin-bottom: 20px;
+}
+
+.detail-room__services-info {
+  display: flex;
+}
+
+.detail-room__attribute {
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: #252525;
+}
+
+.detail-room__attribute i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.detail-room__desc {
+  margin-top: 45px;
+}
+
+.detail-room-btn-booking {
+  width: 100%;
+  border: none;
+  margin-top: 60px;
+}
+
+.detail-room-btn-booking a{
+  text-transform: uppercase;
+}
+
+.detail-room-btn-booking:hover {
+  background-color: #305183;
+}
+
+.detail-room-btn-booking:hover a {
+  color: #fff;
+}
+
+/* booking room */
+.booking-room-wrap {
+  text-align: center;
+  background: #283c5a;
+  padding: 50px 40px;
+}
+
+.booking-room__title {
+  font-size: 24px;
+  color: #cdaf87;
+  font-weight: 700;
+}
+
+.booking-room__subtitle {
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+  font-family: "Old Standard TT", serif;
+  margin-bottom: 32px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+#count-Children,
+#count-Adult,
+#count-room,
+#select-hotel {
+  color: white;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 12px 20px;
+}
+
+#count-Children option,
+#count-Adult option,
+#count-room option,
+#select-hotel option {
+  color: #000;
+}
+
+.date-group {
+  color: #fff;
+  position: relative;
+}
+
+.date-picker {
+  color: white;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.date-group::after {
+  content: "\e6b6";
+  font-family: "themify";
+  position: absolute;
+  right: 20px;
+  top: 24%;
+}
+
+.count-person {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.count-person .form-group {
+  width: 48%;
+}
+
+.btn-edit-booking {
+  border: 2px solid #fff;
+  text-transform: uppercase;
+}
+
+.btn-edit-booking:hover a {
+  color: #fff;
+}

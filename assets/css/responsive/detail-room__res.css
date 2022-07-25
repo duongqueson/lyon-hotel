@@ -1,0 +1,31 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .booking-room-wrap {
+    padding: 50px 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .detail-room {
+    margin-top: 60px;
+  }
+
+  .booking-room {
+    margin-top: 60px;
+  }
+
+  .btn-edit-booking {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .detail-room__header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575px) {
+  .booking-room-wrap {
+    padding: 50px 15px;
+  }
+}

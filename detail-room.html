@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lyon</title>
+  <link sizes="16x16" href="./assets/image/favicon.png" rel="icon" />
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" /> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.css" />
+  <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
+
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive/responsive.css" />
+  <link rel="stylesheet" href="./assets/css/detail-room.css" />
+  <link rel="stylesheet" href="./assets/css/responsive/detail-room__res.css">
+</head>
+
+<body class="preload">
+  <div id="main">
+    <div class="container-fluid o-hidden px-0">
+      <a href="#" class="back-to-top"></a>
+      <!-- header -->
+      <header class="header">
+        <!-- header nav left -->
+        <div class="col-lg-2 header__left">
+          <div class="header-select header__select-hotel">
+            <a class="find-a-hotel" href="#/">FIND A HOTEL</a>
+            <ul class="header__select-list">
+              <li class="header__select-item"><a href="#/">Paris</a></li>
+              <li class="header__select-item"><a href="#/">London</a></li>
+              <li class="header__select-item"><a href="#/">Monaco</a></li>
+              <li class="header__select-item"><a href="#/">Ibiza</a></li>
+              <li class="header__select-item">
+                <a href="#/">Beverly Hills</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- header center with nav -->
+        <div class="col-lg-8 px-0 header__center">
+          <div class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="./index.html">Home</a>
+                <!-- <ul class="sub-nav-list">
+                  <li class="sub-nav-item active">
+                    <a href="#/">Homepage 1</a>
+                  </li>
+                  <li class="sub-nav-item">
+                    <a href="#/">Homepage 2</a>
+                  </li>
+                  <li class="sub-nav-item">
+                    <a href="#/">Homepage 3</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="header__nav-item has-children active">
+                <a href="#/">Rooms</a>
+                <ul class="sub-nav-list">
+                  <li class="sub-nav-item">
+                    <a href="./list-room.html">Rooms listing 2 columns</a>
+                  </li>
+                  <!-- <li class="sub-nav-item">
+                    <a href="#/">Rooms listing 3 columns</a>
+                  </li>
+                  <li class="sub-nav-item">
+                    <a href="#/">Rooms listing grid 3 columns</a>
+                  </li>
+                  <li class="sub-nav-item">
+                    <a href="#/">Single Room</a>
+                  </li> -->
+                  <li class="sub-nav-item active">
+                    <a href="./detail-room.html">Single Room Gallery</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__nav-item">
+                <a href="#/">Booking</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__logo">
+            <a class="header__logo-link" href="./index.html">
+              <img src="./assets/image/logo.png" alt="Lyon logo" /></a>
+          </div>
+
+          <div class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="./list-blog.html">Blog</a>
+                <!-- <ul class="sub-nav-list">
+                  <li class="sub-nav-item has-children">
+                    <a href="#/">Medium thumbnail</a>
+                    <ul class="sub-nav-list">
+                      <li class="sub-nav-item">
+                        <a href="#/">Medium left sidebar</a>
+                      </li>
+                      <li class="sub-nav-item">
+                        <a href="#/">Medium right sidebar</a>
+                      </li>
+                      <li class="sub-nav-item">
+                        <a href="#/">Medium full width</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-nav-item has-children">
+                    <a href="#/">Single post</a>
+                    <ul class="sub-nav-list">
+                      <li class="sub-nav-item">
+                        <a href="#/">Post format: Video</a>
+                      </li>
+                      <li class="sub-nav-item">
+                        <a href="#/">Post format: Gallery</a>
+                      </li>
+                      <li class="sub-nav-item">
+                        <a href="#/">Post format: Soundcloud</a>
+                      </li>
+                      <li class="sub-nav-item">
+                        <a href="#/">Post format: Audio</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="header__nav-item">
+                <a href="./contact.html">Contact</a>
+              </li>
+              <li class="header__nav-item has-children">
+                <a href="#/">Pages</a>
+                <ul class="sub-nav-list">
+                  <li class="sub-nav-item">
+                    <a href="./about-us.html">About</a>
+                  </li>
+                  <!-- <li class="sub-nav-item">
+                    <a href="#/">Gallery</a>
+                  </li> -->
+                  <li class="sub-nav-item">
+                    <a href="./gallery.html">Gallery 2 columns</a>
+                  </li>
+                  <!-- <li class="sub-nav-item">
+                    <a href="#/">404</a>
+                  </li> -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- header right -->
+        <div class="col-lg-2 header__right">
+          <div class="header-select header__select-language">
+            <a class="current-language" href="#/">ENGLISH</a>
+            <ul class="header__select-list">
+              <li class="header__select-item"><a href="#/">Spainese</a></li>
+              <li class="header__select-item"><a href="#/">English</a></li>
+              <li class="header__select-item"><a href="#/">Germanese</a></li>
+              <li class="header__select-item"><a href="#/">French</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="header-sidebar-nav">
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
+
+      <!-- body -->
+      <div class="body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="detail-room">
+                <div class="detail-room__header">
+                  <h2 class="detail-room__title">King Suite Room</h2>
+                  <div class="detail-room__price">$ 1,350 / night</div>
+                </div>
+
+                <div class="owl-carousel owl-theme detail-room__thumb-gallery">
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/Dusk-Exterior.jpg" alt="Dusk Exterior" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/500____college-hotelp1diapo1_718.jpg" alt="Hotel" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/58447-room-type-adina-apartment-hotel-sydney-one-bedroom-queen.jpg"
+                      alt="Hotel Sydney" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/7030704-casa-monica-hotel.jpg" alt="Casa monica hotel" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/mos2-14209716938.jpg" alt="Mos2" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/Moscow_Izmailovo_hotel_complex_evening_14575121847.jpg"
+                      alt="Moscow Izmailovo Hotel" />
+                  </div>
+                </div>
+
+                <div class="owl-carousel owl-theme detail-room__inavigation">
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/Dusk-Exterior-v2-23024px1-150x150.jpg" alt="Dusk Exterior" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/500____college-hotelp1diapo1_7181-150x150.jpg" alt="Hotel" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/58447-room-type-adina-apartment-hotel-sydney-one-bedroom-queen1-150x150.jpg"
+                      alt="Hotel Sydney" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/7030704-casa-monica-hotel1-150x150.jpg" alt="Casa monica hotel" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/mos2-14209716938-150x150.jpg" alt="Mos2" />
+                  </div>
+                  <div class="detail-room__thumb-gallery-item">
+                    <img src="./assets/image/Moscow_Izmailovo_hotel_complex_evening_14575121847-150x150.jpg"
+                      alt="Moscow Izmailovo Hotel" />
+                  </div>
+                </div>
+
+                <div class="detail-room__services">
+                  <h3 class="detail-room__services-title">
+                    Services & Functions
+                  </h3>
+                  <div class="detail-room__services-info">
+                    <div class="col-xl-6">
+                      <p class="detail-room__attribute">
+                        <i class="ti-check"></i><b>Bed: </b>1 King Bed
+                      </p>
+                      <p class="detail-room__attribute">
+                        <i class="ti-check"></i><b>Max: </b>4 People
+                      </p>
+                      <p class="detail-room__attribute">
+                        <i class="ti-check"></i><b>View: </b> City
+                      </p>
+                      <p class="detail-room__attribute">
+                        <i class="ti-check"></i><b>Room size: </b>82 sqm
+                      </p>
+                    </div>
+                    <div class="col-xl-6">
+                      <p class="detail-room__attribute">
+                        <i class="ti-check"></i><b>Room: </b>3
+                      </p>
+                      <p class="detail-room__attribute">
+                        <i class="ti-check"></i><b>Bathroom: </b>2
+                      </p>
+                      <p class="detail-room__attribute">
+                        <i class="fas fa-wifi"></i>Free wifi
+                      </p>
+                      <p class="detail-room__attribute">
+                        <i class="fas fa-tv"></i>TV in room
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-room__desc">
+                  <h3 class="detail-room__desc-title">Description</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit apnim id est laborum.
+                  </p>
+                </div>
+                <div class="btn btn-normal detail-room-btn-booking">
+                  <a href="#/" class="btn-link">Booking This Room</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-4 booking-room">
+              <div class="booking-room-wrap">
+                <h3 class="booking-room__title">Book a Room</h3>
+                <p class="booking-room__subtitle">
+                  Exclusive Online Site Offer
+                </p>
+                <form action="#" id="booking-form">
+                  <div class="form-group">
+                    <select id="select-hotel">
+                      <option>Hotel Branches</option>
+                      <option>London</option>
+                      <option>Paris</option>
+                      <option>New York</option>
+                    </select>
+                  </div>
+                  <div class="form-group date-group">
+                    <input class="date-picker date-checkin" placeholder="Check In" />
+                  </div>
+                  <div class="form-group date-group">
+                    <input class="date-picker date-checkout" placeholder="Check Out" />
+                  </div>
+                  <div class="form-group">
+                    <select id="count-room">
+                      <option>Room</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                  </div>
+                  <div class="count-person">
+                    <div class="form-group">
+                      <select id="count-Adult">
+                        <option>Adult</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <select id="count-Children">
+                        <option>Children</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="btn btn-normal btn-edit-booking">
+                    <a class="btn-link" href="#/">Book Now</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="container">
+            <div class="row">
+              <div class="footer__info">
+                <a href="./index.html" class="footer__logo d-inline-block">
+                  <img src="./assets/image/logo-footer.png" alt="logo" />
+                </a>
+                <div class="footer__contact">
+                  <div class="footer__contact-hotline">
+                    <i class="fas fa-phone-alt"></i>
+                    Hotline: 0969 969 969
+                  </div>
+                  <div class="footer__contact-email">
+                    <i class="fas fa-envelope"></i>
+                    Email: abc@xyz.vn
+                  </div>
+                </div>
+                <div class="footer__social">
+                  <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                      <a href="#/"><i class="ti-facebook"></i></a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#/"><i class="ti-twitter-alt"></i></a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#/"><i class="ti-google"></i></a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#/"><i class="ti-instagram"></i></a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#/"><i class="ti-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container footer__bottom-wrap">
+            <div class="row footer__bottom-widget">
+              <div class="footer__nav">
+                <ul class="footer__nav-list">
+                  <li class="footer__nav-item">
+                    <a href="./about-us.html">About us</a>
+                  </li>
+                  <li class="footer__nav-item"><a href="#/">Gifts</a></li>
+                  <li class="footer__nav-item"><a href="#/">Careers</a></li>
+                  <li class="footer__nav-item">
+                    <a href="./contact.html">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__copyright">
+                © Copyright 2015. Powered by WordPress. LYON HOTEL by
+                SunriseTheme
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- sidebar nav-->
+  <div class="sidebar-nav">
+    <div class="sidebar-close">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <ul class="sidebar-nav-list">
+      <li class="sidebar-nav-item">
+        <a href="./index.html">Home</a>
+        <!-- <ul class="sub-nav-list">
+          <li class="sub-nav-item">
+            <a href="#/">Homepage 1</a>
+          </li>
+          <li class="sub-nav-item">
+            <a href="#/">Homepage 2</a>
+          </li>
+          <li class="sub-nav-item">
+            <a href="#/">Homepage 3</a>
+          </li>
+        </ul> -->
+      </li>
+      <li class="sidebar-nav-item has-children">
+        <a href="#/">Rooms</a>
+        <ul class="sub-nav-list">
+          <li class="sub-nav-item">
+            <a href="./list-room.html">Rooms listing 2 columns</a>
+          </li>
+          <!-- <li class="sub-nav-item">
+            <a href="#/">Rooms listing 3 columns</a>
+          </li>
+          <li class="sub-nav-item">
+            <a href="#/">Rooms listing grid 3 columns</a>
+          </li>
+          <li class="sub-nav-item">
+            <a href="#/">Single Room</a>
+          </li> -->
+          <li class="sub-nav-item">
+            <a href="./detail-room.html">Single Room Gallery</a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="#/">Booking</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="./list-blog.html">Blog</a>
+        <!-- <ul class="sub-nav-list">
+          <li class="sub-nav-item has-children">
+            <a href="#/">Medium thumbnail</a>
+            <ul class="sub-nav-list sub-nav-lv2">
+              <li class="sub-nav-item">
+                <a href="#/">Medium left sidebar</a>
+              </li>
+              <li class="sub-nav-item">
+                <a href="./list-blog.html">Medium right sidebar</a>
+              </li>
+              <li class="sub-nav-item">
+                <a href="#/">Medium full width</a>
+              </li>
+            </ul>
+          </li>
+          <li class="sub-nav-item has-children">
+            <a href="#/">Single post</a>
+            <ul class="sub-nav-list sub-nav-lv2">
+              <li class="sub-nav-item">
+                <a href="#/">Post format: Video</a>
+              </li>
+              <li class="sub-nav-item">
+                <a href="#/">Post format: Gallery</a>
+              </li>
+              <li class="sub-nav-item">
+                <a href="#/">Post format: Soundcloud</a>
+              </li>
+              <li class="sub-nav-item">
+                <a href="#/">Post format: Audio</a>
+              </li>
+            </ul>
+          </li>
+        </ul> -->
+      </li>
+      <li class="sidebar-nav-item">
+        <a href="./contact.html">Contact</a>
+      </li>
+      <li class="sidebar-nav-item has-children">
+        <a href="#/">Pages</a>
+        <ul class="sub-nav-list">
+          <li class="sub-nav-item">
+            <a href="./about-us.html">About</a>
+          </li>
+          <!-- <li class="sub-nav-item">
+            <a href="#/">Gallery</a>
+          </li> -->
+          <li class="sub-nav-item">
+            <a href="./gallery.html">Gallery 2 columns</a>
+          </li>
+          <!-- <li class="sub-nav-item">
+            <a href="#/">404</a>
+          </li> -->
+        </ul>
+      </li>
+    </ul>
+
+    <div class="sidebar-social">
+      <div class="footer__social">
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a href="#/"><i class="ti-facebook"></i></a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#/"><i class="ti-twitter-alt"></i></a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#/"><i class="ti-google"></i></a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#/"><i class="ti-instagram"></i></a>
+          </li>
+          <li class="footer__social-item">
+            <a href="#/"><i class="ti-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./assets/js/libs/datepicker.min.js"></script>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/detail-room.js"></script>
+
+  <script></script>
+
+</body>
+
+</html>

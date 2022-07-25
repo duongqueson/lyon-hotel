@@ -1,0 +1,12 @@
+@media (max-width: 991px) {
+    .body {
+      margin-top: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+  .gallery__filter-list {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}

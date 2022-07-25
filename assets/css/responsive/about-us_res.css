@@ -1,0 +1,53 @@
+@media (max-width: 1199px) {
+  .body__about-us {
+    padding-bottom: 40px;
+  }
+
+  .about-us__wrap {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .about-us__img {
+    padding-top: 15px;
+  }
+
+  .about-us__img-widget {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .about-us__img-wrap {
+    left: auto;
+  }
+
+  .about-us__img-wrap img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .body {
+    margin-top: 60px;
+  }
+
+  .body__testimonials {
+    padding-top: 100px;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .body__our-history {
+    padding-top: 40px;
+  }
+
+  .about-us__content {
+    padding: 0 15px;
+  }
+
+  .about-us__main-title {
+    padding-top: 0;
+  }
+
+}
